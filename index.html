@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boost Landing Page</title>
-    <!-- Main Style CSS File -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Css bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--  Font Awesome Library -->
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main Style CSS File -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- google fonts " Noto Sans Arabic"  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +20,479 @@
         href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Cairo:wght@200;300;400;500;700;800;900&family=Mada:wght@200;300;400;500;600;700;900&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Outfit:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- Start Navbar -->
+    <div class="navbar-container">
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/Frame.svg" alt=""><img
+                            src="images/boost-header.svg" class="pe-2" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon fa-solid fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><img
+                                        src="images/active-link.svg" class="ms-1" alt="">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="_" class="ms-1" alt="">عن بووست</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="_" class="ms-1" alt="">طريقة الطلب</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="_" class="ms-1" alt="">تواصل معنا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="_" class="ms-1" alt="">تسجيل</a>
+                            </li>
+                        </ul>
+                        <div class="darkmode-toggle-and-lang">
+                            <div>
+                                <input type="checkbox" id="darkmode-toggle" />
+                                <label for="darkmode-toggle" class="darkmode-toggle">
+                                    <img src="images/sun1.svg" class="sun" alt="">
+                                    <img src="images/moon.svg" class="moon" alt="">
+                                </label>
+                            </div>
+                            <div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle ">
+                                <form action="" class="language-picker__form">
+                                    <p>اللغة</p>
+                                    <i href="#language-picker-select" class="fa-solid fa-caret-down"></i>
+                                    <img src="images/global.svg" class="lang-icon" alt="">
+                                    <select name="language-picker-select" id="language-picker-select">
+                                        <option lang="en" value="english">English</option>
+                                        <option lang="ar" value="ar" selected>العربية</option>
+                                        <option lang="fr" value="francais">Français</option>
+                                        <option lang="it" value="italiano">Italiano</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="price-picker js-price-picker" data-trigger-class="btn btn--subtle ">
+                                <form action="" class="price-picker__form">
+                                    <p>العملة</p>
+                                    <i href="#price-picker-select" class="fa-solid fa-caret-down"></i>
+                                    <img src="images/moneychange.svg" class="price-icon" alt="">
+                                    <select name="language-picker-select" id="language-picker-select">
+                                        <option lang="SAR" value="ar" selected>ريال</option>
+                                        <option lang="USD" value="USD">دولار</option>
+                                        <option lang="Euro" value="Euro">يورو</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- End Navbar -->
+    <!-- Start Landing Section -->
+    <div class="landing-container">
+        <div class="color-yellow"></div>
+        <div class="color-blue"></div>
+        <div class="container">
+            <section class="landing">
+                <div class="landing-content">
+                    <img src="images/بووست.svg" class="mb-4" alt="">
+                    <h2 class="mb-3">اختيارك الأول <span> للسوشال ميديا</span> </h2>
+                    <p>( متابعين، مشاهدات، لايكات...الخ</p>
+                    <p>بأسعار تبدأ من <span>0.0001</span> ريال !</p>
+                    <p>تقدر تزيد الرقم اللي تبيه !</p>
+                    <div>
+                        <a href="#">سجّل الآن</a>
+                        <a href="#">كيف أطلب؟</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/3D Interface Illustration 1.svg" alt="">
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- End Landing Section -->
+    <!-- Start Landing Counter Section -->
+    <section>
+        <div class="container">
+            <div class="landing-counter">
+                <div class="total-orders">
+                    <img src="images/box.svg" alt="">
+                    <div>
+                        <p>إجمالي الطلبات</p>
+                        <div class="counter">
+                            <h1 class="value" akhi="5000">0 </h1> <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="number-of-clients">
+                    <img src="images/users-icon.svg" alt="">
+                    <div>
+                        <p>عدد العملاء</p>
+                        <div class="counter">
+                            <h1 class="value" akhi="2500">0 </h1> <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="number-of-services">
+                    <img src="images/Subtract-icon.svg" alt="">
+                    <div>
+                        <p>عدد الخدمات</p>
+                        <div class="counter">
+                            <h1 class="value" akhi="500">0 </h1> <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Landing Counter Section -->
+    <!-- Start Login -->
+    <section>
+        <div class="container">
+            <div class="login">
+                <form action="">
+                    <div class="username">
+                        <label for="username">اسم المستخدم</label>
+                        <input type="text" id="username" name="username" placeholder="username">
+                        <div>
+                            <p>ليس لديك حساب؟</p>
+                            <a href="#">تسجيل حساب جديد</a>
+                        </div>
+                    </div>
+
+                    <div class="password">
+                        <label for="password">كلمة المرور</label>
+                        <input type="password" name="password" id="password" placeholder="*************">
+                        <a>نسيت كلمة المرور؟</a>
+                    </div>
+                    <div class="submit">
+                        <div>
+                            <img src="images/login.svg" alt="">
+                            <p>دخول</p>
+                        </div>
+                        <input type="submit" value="">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Login -->
+    <!-- Start Offers Section -->
+    <section class="offers">
+        <div class="container">
+            <div class="offers-title">
+                <p><span>مع</span> <span>بوُوست</span></p>
+                <p>عروضنا مميزة</p>
+            </div>
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+
+                        <div class="card swiper-slide first ">
+                            <div class="offer"><img src="images/offer-50-SAR.svg" alt=""></div>
+                            <div class="offer-detials">
+                                <img src="images/instagram-icon.svg" alt="">
+                                <h1>باكيج الألفية</h1>
+                                <h1>1000+</h1>
+                                <span>متابع</span>
+                                <a href="#">اشتري الان</a>
+                                <a href="#">تفاصيل الخدمة</a>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide middle">
+                            <div class="offer"><img src="images/offer-50-SAR.svg" alt=""></div>
+                            <div class="offer-detials">
+                                <img src="images/snapchat-icon.svg" alt="">
+                                <h1>باكيج الألفية</h1>
+                                <h1>1000+</h1>
+                                <span>متابع</span>
+                                <a href="#">اشتري الان</a>
+                                <a href="#">تفاصيل الخدمة</a>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide last">
+                            <div class="offer"><img src="images/offer-50-SAR.svg" alt=""></div>
+                            <div class="offer-detials">
+                                <img src="images/twitter-icon.svg" alt="">
+                                <h1>باكيج الألفية</h1>
+                                <h1>1000+</h1>
+                                <span>متابع</span>
+                                <a href="#">اشتري الان</a>
+                                <a href="#">تفاصيل الخدمة</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn">
+                    <img src="images/arrowlift.svg" alt="">
+                </div>
+                <div class="swiper-button-prev swiper-navBtn">
+                    <img src="images/arrowright.svg" alt="">
+                </div>
+            </div>
+            <a href="#" class="more-offers">المزيد من العروض</a>
+        </div>
+        </div>
+    </section>
+    <!-- End Offers Section -->
+    <!-- Start Boost system -->
+    <section>
+        <div class="container">
+            <div class="boost-system-title">
+                <p><span>مع</span> <span>بوُوست</span> <span>تقدر</span></p>
+                <p>تربح، تتاجر، و توفر</p>
+            </div>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div>
+                            <h1>نظام عطاء بووست</h1>
+                            <div>
+                                <p><span>حنا كريمين وأنت</span> <span>تستاهل !</span></p>
+                                <p>تبي تعرف كيف حنا كريمين؟ </p>
+                            </div>
+                            <a href="" class="more-detils"><img src="images/Arrow---Left-3.svg" alt=""> <span>لمعرفة
+                                    المزيد</span></a>
+                        </div>
+                        <div>
+                            <img src="images/robot.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div>
+                            <h1>نظام عطاء بووست</h1>
+                            <div>
+                                <p><span>حنا كريمين وأنت</span> <span>تستاهل !</span></p>
+                                <p>تبي تعرف كيف حنا كريمين؟ </p>
+                            </div>
+                            <a href="#" class="more-detils"><img src="images/Arrow---Left-3.svg" alt=""> <span>لمعرفة
+                                    المزيد</span></a>
+                        </div>
+                        <div>
+                            <img src="images/robot.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div>
+                            <h1>نظام عطاء بووست</h1>
+                            <div>
+                                <p><span>حنا كريمين وأنت</span> <span>تستاهل !</span></p>
+                                <p>تبي تعرف كيف حنا كريمين؟ </p>
+                            </div>
+                            <a href="#" class="more-detils"><img src="images/Arrow---Left-3.svg" alt=""> <span>لمعرفة
+                                    المزيد</span></a>
+                        </div>
+                        <div>
+                            <img src="images/robot.svg" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Boost system -->
+    <!-- Start Boost-orders Section -->
+    <section>
+        <div class="container">
+            <div class="boost-section">
+                <img class="boost-section-title" src="images/كيف تطلب من بووست؟.svg"></img>
+                <div>
+                    <div class="register">
+                        <div>
+                            <img src="images/Group222.png" alt="">
+                            <p>سجّل</p>
+                        </div>
+                        <img src="images/arrowleft.svg" alt="">
+                    </div>
+                    <div class="charge">
+                        <div>
+                            <img src="images/Group000.png" alt="">
+                            <p>اشحن</p>
+                        </div>
+                        <img src="images/arrowleft.svg" alt="">
+                    </div>
+                    <div class="order">
+                        <div>
+                            <img src="images/Group111.png" alt="">
+                            <p>اطلب</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Boost-orders Section -->
+    <!-- payment methods Section -->
+    <section id="payment-methods">
+        <div class="payment-methods-cover"></div>
+        <div class="container">
+            <div class="payment-methods-title">
+                <img src="images/مع بوُوست طرق الدفع كثيرة.svg" alt="">
+            </div>
+            <div class="payment-methods">
+                <div>
+                    <img src="images/visa-icon.svg" alt="payment-methods">
+                    <img src="images/apple-pay-icon.svg" alt="payment-methods">
+                    <img src="images/STC-icon.svg" alt="payment-methods">
+                    <img src="images/mada-icon.svg" alt="payment-methods">
+                </div>
+                <div>
+                    <img src="images/paypal-icon.svg" alt="payment-methods">
+                    <img src="images/tether-icon.svg" alt="payment-methods">
+                    <img src="images/mastercard-icon.svg" alt="payment-methods">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End methods Section -->
+    <!-- Start opinions Section  -->
+    <section class="opinions">
+        <div class="opinions-title">
+            <p><span>عن</span> <span>بوُوست</span></p>
+            <p>آراء عملاءنا</p>
+        </div>
+        <div class="opinions-slide-container swiper">
+            <div class="slide-content-1">
+                <div class="card-wrapper-1 swiper-wrapper">
+
+                    <div class="comments-card swiper-slide first-comments-card">
+                        <img src="images/Ellipse 24.svg" alt="">
+                        <div>
+                            <h2 class="name">عبدالله القحطاني</h2>
+                            <img src="images/rate.svg" class="rate" alt="">
+                        </div>
+                        <p class="comments-content">خدمة آمنة وسريعة وأسعار منافسة وشكرًا لكم جدًا كلام كثير عشان أبغى
+                            أملي المكان كتابة
+                            ويارب يعجبكم التصميم وشكرًا لك ياعميل كمان</p>
+                    </div>
+                    
+                    <div class="comments-card swiper-slide last-comments-card">
+                        <img src="images/Ellipse 23.svg" alt="">
+                        <div>
+                            <h2 class="name">يوسف الاحمد</h2>
+                            <img src="images/rate.svg" class="rate" alt="">
+                        </div>
+                        <p class="comments-content">خدمة آمنة وسريعة وأسعار منافسة وشكرًا لكم جدًا كلام كثير عشان أبغى
+                            أملي المكان كتابة ويارب يعجبكم التصميم وشكرًا لك ياعميل كمان</p>
+                    </div>
+                    <div class="comments-card swiper-slide middle-comments-card">
+                        <img src="images/Ellipse 25.svg" alt="">
+                        <div>
+                            <h2 class="name">عبدالله القحطاني</h2>
+                            <img src="images/rate.svg" class="rate" alt="">
+                        </div>
+                        <p class="comments-content">خدمة آمنة وسريعة وأسعار منافسة وشكرًا لكم جدًا كلام كثير عشان أبغى
+                            أملي المكان كتابة ويارب يعجبكم التصميم وشكرًا لك ياعميل كمان</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btns">
+                <div class="swiper-btn-next swiper-navBtn">
+                    <img src="images/swiper-btn-next.svg" alt="">
+                </div>
+                <div class="swiper-btn-prev swiper-navBtn">
+                    <img src="images/swiper-btn-prev.svg" alt="">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End opinions Section -->
+    <!-- Start footer -->
+    <footer>
+        <div class="bg-footer-icon"></div>
+        <div class="container">
+            <div class="footer">
+            <div class="footer-logo">
+                <img src="images/Frame.svg" alt="">
+                <img src="images/boost-header.svg" class="pe-2" alt="">
+            </div>
+            <div class="footer-ul-li-link">
+                <div class="about-us">
+                    <p class="footer-title">من نحن</p>
+                    <p>متجر بووٌست فريق سعودي مختص في مجال السوشل ميديا لزيادة المتابعين والمشاهدات واللايكات على حساباتك في السوشل ميديا</p>
+                    <div class="btn-store">
+                        <a href="#"><img src="images/google-play-icon.svg" alt=""></a>
+                        <a href="#"><img src="images/app-store-icon.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="quick-links">
+                    <p class="footer-title">روابط سريعة</p>
+                    <ul>
+                        <li><a href="#">الرئيسية</a></li>
+                        <li><a href="#">التسجيل</a></li>
+                        <li><a href="#">طريقة الطلب</a></li>
+                    </ul>
+                </div>
+                <div class="important-links">
+                    <p class="footer-title">روابط هامة</p>
+                    <ul>
+                        <li><a href="#">اتفاقية الاستخدام</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">من نحن</a></li>
+                    </ul>
+                </div>
+                <div class="contact-us">
+                    <p class="footer-title">تواصل معنا</p>
+                    <ul>
+                        <li><img src="images/internet-icon.svg" alt=""><a href="#" class="pe-3">www.B0ost.sa</a></li>
+                        <li><img src="images/mail-icon.svg" alt=""><a href="#" class="pe-3">support@B0ost.sa</a></li>
+                        <li><img src="images/phone-icon.svg" alt=""><a href="#" class="pe-3">+966-5820154</a></li>
+                        <li><img src="images/whatsapp-icon.svg" alt=""><a href="#" class="pe-3">+966-5820154</a></li>
+                    </ul>
+                    <div class="social-media-icon">
+                        <a href="#"><img src="images/snapchat-social-icon.svg" alt=""></a>
+                        <a href="#"><img src="images/twitter-social-icon.svg" alt=""></a>
+                        <a href="#"><img src="images/faesbook-social.svg" alt=""></a>
+                        <a href="#"><img src="images/linked in-social.svg" alt=""></a>
+                        <a href="#"><img src="images/instagram-social-icon.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="copyright"> <p>الحقوق محفوظة بووست - لدعم حساباتك في السوشل ميديا</p> </div>
+    </footer>
+    <!-- End footer -->
     <!-- Main Script File -->
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <!-- Js bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
