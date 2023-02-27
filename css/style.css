@@ -312,9 +312,19 @@ form select:focus {
   z-index: -9999;
   top: 0;
 }
-.landing-container::after {
+/* .landing-container::after {
   content: "";
   position: absolute;
+  width: 100%;
+  top: 0;
+  background-image: url(../images/Background-header-section.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 1604px;
+  z-index: -9999;
+} */
+.landing-container-after{
+    position: absolute;
   width: 100%;
   top: 0;
   background-image: url(../images/Background-header-section.png);
